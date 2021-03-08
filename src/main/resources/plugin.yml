@@ -1,0 +1,19 @@
+name: Lobby
+version: ${project.version}
+main: nl.snowpix.lobby.Lobby
+authors: [ Pottenmaker ]
+description: A simple lobby plugin made for minecraft servers.
+commands:
+  Anti-Build:
+    description: Het anti-build command voor de lobby.
+    aliases: [ab]
+  SetSpawn:
+    description: Het setspawn command voor de lobby.
+    aliases: [set-spawn]
+  Staff:
+    description: Ga via dit command in staff/vanish mode.
+    aliases: [staffmode, vanish, v]
+  Fly:
+    description: Ga in vliegmodus via dit command.
+  Spawn:
+    description: Ga naar de server spawn.

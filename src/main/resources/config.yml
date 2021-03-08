@@ -1,0 +1,95 @@
+###########################
+# Plugin made by:         #
+# Jona / Pottenmaker      #
+# Dicord: Jona#7797       #
+# Open for new            #
+# challanges!             #
+############################
+
+#The prefix of the messages.
+Prefix: '&4&lPrefix &8&l> &7'
+
+#This option is if you want the chat system of this plugin or not:
+Chat_System: true
+
+#The world that the plugin is loading in. (USE THE MAIN WORLD)
+World: 'world'
+
+#Permissions:
+Donator_Perm: 'lobby.donator'
+Staff_Perm: 'lobby.staff'
+Admin_Perm: 'lobby.admin'
+
+#If you want to display the vault prefixes on tab or not.
+Use_TabPrefix: true
+Tab_Format: '%player_prefix% &f'
+
+#Other chat options:
+Chat_Format: '&8&l> &7%player_prefix% &7%s&f: &7%s'
+
+#Join and leave messages.
+Join_Message: '&7[&a+&7] &7%player%'
+Leave_Message: '&7[&c-&7] &7%player%'
+
+#SCOREBOARD OPTIONS!
+Use_Scoreboard: true
+
+#Placeholders: %prefix%, %online%, %player_name%, %player_prefix%, %bungee_total%, %Server1%, %Server2%, %Server3%, %ping%.
+Lobby_Scoreboard_Title: '&a&lSnowPix'
+Lobby_Scoreboard_Lines:
+  - '&d    '
+  - '&2Prefix&7: %player_prefix%'
+  - '&2Naam&7: %player_name%'
+  - '&9 '
+  - '&a&lPlayers &8&l>'
+  - '&2Kingdom&7: %Server1%'
+  - '&2Lobby&7: %Server2%'
+  - '&2Totaal&7: %bungee_total%'
+  - '&f   '
+  - '&aplay.snowpix.nl'
+
+#This servers can be used in scoreboard to view the playercount, example: %Server1%..
+Server1: 'Kingdom'
+Server2: 'Lobby'
+Server3: 'OS'
+
+JoinMessage:
+  - '&7                   &8⋆ &b&lSnowpix &8⋆'
+  - '&7'
+  - '&7              &8⋆ &7Welkom op &bKingdom&7! &8⋆'
+  - '&7'
+  - '&7                     &7Informatie:'
+  - '&7'
+  - '&7       &8⋆ &7Website: &bhttps://snowpix.nl &8⋆'
+  - '&7       &8⋆ &7Store: &bhttp://shop.snowpix.nl &8⋆'
+  - '&7       &8⋆ &7Discord: &bhttps://snowpix.nl/discord &8⋆'
+  - '&7'
+  - '&7             &8⋆ &7Nog veel speel plezier! &8⋆'
+  - '&7'
+
+#The next options are for the server selector (GUI).
+#BE CAREFULL WITH THIS!
+
+#Item 1:
+Item1_Server: 'kingdom'
+Item1_Display: '&e&lKINGDOM'
+Item1_Slot: 2
+Item1_Item: 'BLAZE_ROD'
+Item1_Lore:
+  - '&8> &7Ga naar &e&lKingdom&7!'
+  - '&8> &7Door hierdoor op te klikken ga je naar'
+  - '&7naar de kingdom server!'
+  - '&3'
+  - '&8> &7Online: &e%online%'
+
+#Item 2:
+Item2_Server: 'os'
+Item2_Display: '&a&lOORLOG&7-&a&lSIMULATIE'
+Item2_Slot: 6
+Item2_Item: 'DIAMOND_SWORD'
+Item2_Lore:
+  - '&8> &7Ga naar &a&lOorlog&7-&a&lSimulatie&7!'
+  - '&8> &7Door hierdoor op te klikken ga je naar'
+  - '&7naar de Oorlog-Simulatie server!'
+  - '&6'
+  - '&8> &7Online: &a%online%'
